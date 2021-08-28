@@ -4,5 +4,5 @@ A collection of hands on code from the International Virtual Course on Astrostat
 # Additional Package
 This notebook requires hdbscan but for some reason I cannot install regularly using pip but I can use conda. Using conda, install hdbscan using:
 ```cmd
-conda install -c conda-force hdbscan
+conda install -c conda-forge hdbscan
 ```
