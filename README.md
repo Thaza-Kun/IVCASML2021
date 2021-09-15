@@ -1,8 +1,13 @@
 # IVCASML2021
 A collection of hands on code from the International Virtual Course on Astrostatistics and Machine Learning 2021
 
-# Additional Package
-This notebook requires hdbscan but for some reason I cannot install regularly using pip but I can use conda. Using conda, install hdbscan using:
+# HDBSCAN
+
+```cmd
+pip install hdbscan
+```
+If you have trouble installing HDBSCAN from pip, try installing the latest Desktop Development with C++ tools from [Microsoft Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and try again. Otherwise, consider using conda.
+
 ```cmd
 conda install -c conda-forge hdbscan
 ```
